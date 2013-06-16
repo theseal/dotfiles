@@ -31,6 +31,10 @@ unset LOCAL
 sfind() {
     find . -path '*/.svn*' -prune -o -print
 }
+# View files in an GIT repo without the GIT crap files.
+gfind() {
+    find . -path '*/.git*' -prune -o -print
+}
 
 # Handle some diffrent package managers
 update() {
