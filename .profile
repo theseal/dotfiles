@@ -27,6 +27,12 @@ if [ -f "${LOCAL}" ]; then
 fi
 unset LOCAL
 
+# Create dir and cd in to it
+cdm() {
+    mkdir -p ${1}
+    cd ${1}
+}
+
 # View files in an SVN repo without the SVN crap files.
 sfind() {
     find . -path '*/.svn*' -prune -o -print
