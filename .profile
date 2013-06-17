@@ -76,3 +76,7 @@ upgrade() {
         fi
     fi
 }
+
+tunnel() {
+  ssh -D 7777 ${1} 
+}
