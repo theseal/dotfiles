@@ -52,7 +52,7 @@ update() {
             echo "==> Outdated"
             echo "${OUTDATED}"
         fi
-    elseif [[ "${KERNEL}" = "Linux" ]]; then
+    elif [[ "${KERNEL}" = "Linux" ]]; then
         ISSUE=$(cat /etc/issue)    
         if [[ egrep -i 'debian|ubuntu' ${ISSUE} ]]; then
             apt-get update
