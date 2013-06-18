@@ -54,10 +54,10 @@ update() {
         fi
     elif [[ "${KERNEL}" = "Linux" ]]; then
         ISSUE=$(cat /etc/issue)    
-        if [[ egrep -i 'debian|ubuntu' ${ISSUE} ]]; then
+        if egrep -i 'debian|ubuntu' ${ISSUE}; then
             apt-get update
             apt-get -s upgrade
-        elseif [[ egrep -i 'arch' ${ISSUE} ]]; then
+        elif egrep -i 'arch' ${ISSUE}; then
             pacman -Sy
             pacman -Qu
         fi
@@ -67,11 +67,11 @@ upgrade() {
     KERNEL=$(uname)
     if [[ "${KERNEL}" = "Darwin" ]]; then
         brew upgrade
-    elseif [[ "${KERNEL}" = "Linux" ]]; then
+    elif [[ "${KERNEL}" = "Linux" ]]; then
         ISSUE=$(cat /etc/issue)    
-        if [[ egrep -i 'debian|ubuntu' ${ISSUE} ]]; then
+        if egrep -i 'debian|ubuntu' ${ISSUE}; then
             apt-get upgrade
-        elseif [[ egrep -i 'arch' ${ISSUE} ]]; then
+        elif egrep -i 'arch' ${ISSUE}; then
             pacman -Syu
         fi
     fi
