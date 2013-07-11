@@ -80,3 +80,7 @@ upgrade() {
 tunnel() {
   ssh -D 7777 ${1} 
 }
+login() {
+kinit 
+kinit "$(whoami)/root"
+}
