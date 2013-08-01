@@ -16,7 +16,7 @@ export HISTCONTROL=ignoredups
 export LC_ALL=en_US.UTF-8
 
 # If @Work, source some secret work related stuff
-WORK="~/.work"
+WORK="${HOME}/.work"
 if [ -f "${WORK}" ]; then
     source "${WORK}"
 fi
