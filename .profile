@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # A long path is a good path.
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/lib/rancid/bin:$PATH
 
