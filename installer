@@ -9,10 +9,10 @@ if [ "$kernel" == "Darwin" ]; then
         echo "GNU readlink is not present, please install coreutils"
         exit 1
     fi
-    $force=F
+    force=F
 else 
     readlink=readlink
-    $force=f
+    force=f
 fi
 
 installer_pwd="$($readlink -f $0)"
