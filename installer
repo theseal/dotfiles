@@ -9,8 +9,10 @@ if [ "$kernel" == "Darwin" ]; then
         echo "GNU readlink is not present, please install coreutils"
         exit 1
     fi
+    $force=F
 else 
     readlink=readlink
+    $force=f
 fi
 
 installer_pwd="$($readlink -f $0)"
@@ -22,7 +24,7 @@ if [ "$file" == ".slate" ]; then
         continue
     fi
 fi
-ln -sF $($readlink -f $file) ~/
+ln -s$force $($readlink -f $file) ~/
 
 done
 
