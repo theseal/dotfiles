@@ -23,7 +23,7 @@ fi
 unset WORK
 
 # Source "local" secrets or stuff thats not generic
-LOCAL="~/.local"
+LOCAL="${HOME}/.local"
 if [ -f "${LOCAL}" ]; then
     source "${LOCAL}"
 fi
