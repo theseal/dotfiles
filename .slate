@@ -8,17 +8,19 @@ config windowHintsSpread true
 
 # Monitor Aliases
 alias external 1920x1080
-alias laptop 1280x800
+alias laptop 1366x768
+
 
 default external resolutions:${external}
 default laptop   resolutions:${laptop}
 default 2screen  resolutions:${external};${laptop}
 
+layout 2screen 'iTerm' move screenOriginX;screenOriginY                  screenSizeX;screenSizeY
 
 # Misc Aliases
 alias showHintsLeftHand hint AOEUIYQJKX
 alias showNormalHint hint AOEUIDHTNSYXFBPKGMCW
-bind 1:ctrl relaunch
+bind 0:ctrl relaunch
 
 # Abstract positions
 alias full          move screenOriginX;screenOriginY                  screenSizeX;screenSizeY
@@ -39,7 +41,25 @@ layout external 'iTerm' ${righthalf}
 layout external 'Mail' ${righthalf} 
 layout external 'Reeder' ${righthalf} 
 layout external 'Firefox' ${lefthalf} 
-layout external 'iPhoto' ${full} 
+layout external 'iPhoto' ${full}
+layout 2screen '1Password' ${full}
+
+layout 2screen 'iTerm' ${righthalf} ${external}
+layout 2screen 'Mail' ${full} ${laptop}
+layout 2screen 'Reeder' ${righthalf} ${external}
+layout 2screen 'Firefox' ${lefthalf} ${external} 
+layout 2screen 'iPhoto' ${full} ${external}
+layout 2screen '1Password' ${full} ${laptop}
+
+layout laptop 'iTerm' ${full}
+layout laptop 'Mail' ${full}
+layout laptop 'Reeder' ${full}
+layout laptop 'Firefox' ${full}
+layout laptop 'iPhoto' ${full}
+layout laptop '1Password' ${full}
+
+
+
 
 bind right:ctrl;shift resize +10% +0
 bind left:ctrl;shift resize -10% +0
