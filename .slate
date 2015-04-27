@@ -18,7 +18,6 @@ default 2screen  resolutions:${external};${laptop}
 # Misc aliases.
 alias showHintsLeftHand hint AOEUIYQJKX
 alias showNormalHint hint AOEUIDHTNSYXFBPKGMCW
-bind 0:ctrl relaunch
 
 # Abstract positions.
 alias full          move screenOriginX;screenOriginY                  screenSizeX;screenSizeY
@@ -66,3 +65,4 @@ bind pad7:ctrl corner top-left resize:screenSizeX/2;screenSizeY/2
 bind pad1:ctrl corner bottom-left resize:screenSizeX/2;screenSizeY/2
 bind pad9:ctrl corner top-right resize:screenSizeX/2;screenSizeY/2
 bind pad3:ctrl corner bottom-right resize:screenSizeX/2;screenSizeY/2
+bind 0:ctrl relaunch
