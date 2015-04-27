@@ -73,3 +73,4 @@ bind left:ctrl;alt ${upleft}
 bind down:ctrl;alt ${downleft}
 bind right:ctrl;alt ${downright}
 bind up:ctrl;alt ${upright}
+bind space:ctrl throw next
