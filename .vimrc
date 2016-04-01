@@ -39,3 +39,6 @@ function Svn_diff()
 endfunction
 
 au FileType mail set nocindent
+
+" Highlight whitespace(s) at the end of line.
+autocmd VimEnter * :call matchadd('Error', '\s\+$', -1) | call matchadd('Error', '\%u00A0')
