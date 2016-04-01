@@ -1,5 +1,6 @@
 [user]
-	name = Johan Carlquist
-	email = johan@rymdvarel.se
+    name = Johan Carlquist
+    email = johan@rymdvarel.se
+
 [push]
-        default = current
+    default = current

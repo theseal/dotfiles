@@ -80,13 +80,13 @@ upgrade() {
 }
 
 tunnel() {
-  echo "Enter password for sudo on local device to enable socks proxy"
-  sudo networksetup -setsocksfirewallproxy "Wi-Fi" localhost 7777
-  ssh -D 7777 ${1}
-  echo "Enter password for sudo on local device to disable socks proxy"
-  sudo networksetup -setsocksfirewallproxystate "Wi-Fi" off
+    echo "Enter password for sudo on local device to enable socks proxy"
+    sudo networksetup -setsocksfirewallproxy "Wi-Fi" localhost 7777
+    ssh -D 7777 ${1}
+    echo "Enter password for sudo on local device to disable socks proxy"
+    sudo networksetup -setsocksfirewallproxystate "Wi-Fi" off
 }
 login() {
-kinit
-kinit "$(whoami)/root"
+    kinit
+    kinit "$(whoami)/root"
 }
