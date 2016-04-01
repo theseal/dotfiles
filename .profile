@@ -55,7 +55,7 @@ update() {
             echo "${OUTDATED}"
         fi
     elif [[ "${KERNEL}" = "Linux" ]]; then
-        ISSUE=$(cat /etc/issue)    
+        ISSUE=$(cat /etc/issue)
         if egrep -i 'debian|ubuntu' ${ISSUE}; then
             apt-get update
             apt-get -s upgrade
@@ -70,7 +70,7 @@ upgrade() {
     if [[ "${KERNEL}" = "Darwin" ]]; then
         brew upgrade
     elif [[ "${KERNEL}" = "Linux" ]]; then
-        ISSUE=$(cat /etc/issue)    
+        ISSUE=$(cat /etc/issue)
         if egrep -i 'debian|ubuntu' ${ISSUE}; then
             apt-get upgrade
         elif egrep -i 'arch' ${ISSUE}; then
@@ -82,11 +82,11 @@ upgrade() {
 tunnel() {
   echo "Enter password for sudo on local device to enable socks proxy"
   sudo networksetup -setsocksfirewallproxy "Wi-Fi" localhost 7777
-  ssh -D 7777 ${1} 
+  ssh -D 7777 ${1}
   echo "Enter password for sudo on local device to disable socks proxy"
   sudo networksetup -setsocksfirewallproxystate "Wi-Fi" off
 }
 login() {
-kinit 
+kinit
 kinit "$(whoami)/root"
 }

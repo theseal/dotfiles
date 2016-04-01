@@ -10,7 +10,7 @@ if [ "$kernel" == "Darwin" ]; then
         exit 1
     fi
     force=F
-else 
+else
     readlink=readlink
     force=f
 fi

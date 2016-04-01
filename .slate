@@ -27,10 +27,10 @@ alias up            move screenOriginX;screenOriginY                  screenSize
 alias down          move screenOriginX;screenOriginY+screenSizeY/2    screenSizeX;screenSizeY/2
 
 # External monitor only.
-layout external 'iTerm' ${righthalf} 
-layout external 'Mail' ${righthalf} 
-layout external 'Reeder' ${righthalf} 
-layout external 'Firefox' ${lefthalf} 
+layout external 'iTerm' ${righthalf}
+layout external 'Mail' ${righthalf}
+layout external 'Reeder' ${righthalf}
+layout external 'Firefox' ${lefthalf}
 layout external 'iPhoto' ${full}
 
 # Two screens.
@@ -38,7 +38,7 @@ layout 2screen '1Password' ${full}
 layout 2screen 'iTerm' ${righthalf} ${external}
 layout 2screen 'Mail' ${full} ${laptop}
 layout 2screen 'Reeder' ${righthalf} ${external}
-layout 2screen 'Firefox' ${lefthalf} ${external} 
+layout 2screen 'Firefox' ${lefthalf} ${external}
 layout 2screen 'iPhoto' ${full} ${external}
 layout 2screen '1Password' ${full} ${laptop}
 
