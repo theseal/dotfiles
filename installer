@@ -1,31 +1,16 @@
 #!/bin/bash
 
+source_dir=$(dirname $0)
 kernel=$(uname)
 
-if [ "$kernel" == "Darwin" ]; then
-    readlink=greadlink
-    which $readlink > /dev/null 2>&1
-    if [ "$?" -ne "0" ]; then
-        echo "GNU readlink is not present, please install coreutils"
-        exit 1
-    fi
-    force=F
-else
-    readlink=readlink
-    force=f
-fi
-
-installer_pwd="$($readlink -f $0)"
-dotfiles_dir="$(dirname $installer_pwd)"
-
-for file in $(ls -a $dotfiles_dir | egrep '^\.[^.]+' | egrep -v '^\.git$'); do
-    if [ "$file" == ".slate" || "$file" == ".Brewfile" ]; then
-        if [ "$kernel" != "Darwin" ]; then
+for file in $(ls -a ${source_dir} | egrep '^\.[^.]+' | egrep -v '^\.git$'); do
+    if [ "${file}" == ".slate" || "${file}" == ".Brewfile" ]; then
+        if [ "${kernel}" != "Darwin" ]; then
             continue
         fi
     fi
 
-    ln -s$force $($readlink -f $file) ~/
+    cp ${source_dir}/${file} ~/
 
 done
 
