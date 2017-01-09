@@ -6,15 +6,6 @@ config windowHintsShowIcons true
 config windowHintsIgnoreHiddenWindows false
 config windowHintsSpread true
 
-# Monitor Aliases.
-alias external 1920x1080
-alias laptop 1366x768
-
-# Resolution aliases.
-default external resolutions:${external}
-default laptop   resolutions:${laptop}
-default 2screen  resolutions:${external};${laptop}
-
 # Misc aliases.
 alias showHintsLeftHand hint AOEUIYQJKX
 alias showNormalHint hint AOEUIDHTNSYXFBPKGMCW
@@ -25,30 +16,6 @@ alias lefthalf      move screenOriginX;screenOriginY                  screenSize
 alias righthalf     move screenOriginX+screenSizeX/2;screenOriginY    screenSizeX/2;screenSizeY
 alias up            move screenOriginX;screenOriginY                  screenSizeX;screenSizeY/2
 alias down          move screenOriginX;screenOriginY+screenSizeY/2    screenSizeX;screenSizeY/2
-
-# External monitor only.
-layout external 'iTerm' ${righthalf}
-layout external 'Mail' ${righthalf}
-layout external 'Reeder' ${righthalf}
-layout external 'Firefox' ${lefthalf}
-layout external 'iPhoto' ${full}
-
-# Two screens.
-layout 2screen '1Password' ${full}
-layout 2screen 'iTerm' ${righthalf} ${external}
-layout 2screen 'Mail' ${full} ${laptop}
-layout 2screen 'Reeder' ${righthalf} ${external}
-layout 2screen 'Firefox' ${lefthalf} ${external}
-layout 2screen 'iPhoto' ${full} ${external}
-layout 2screen '1Password' ${full} ${laptop}
-
-# Laptop only.
-layout laptop 'iTerm' ${full}
-layout laptop 'Mail' ${full}
-layout laptop 'Reeder' ${full}
-layout laptop 'Firefox' ${full}
-layout laptop 'iPhoto' ${full}
-layout laptop '1Password' ${full}
 
 # Key bindings.
 bind right:ctrl;shift resize +10% +0
