@@ -10,6 +10,14 @@ for file in $(ls -a ${source_dir} | egrep '^\.[^.]+' | egrep -v '^\.git$'); do
         fi
     fi
 
+    if [ "${file}" == ".gitconfig" ]; then
+        echo "Enter git commit mail, followed by [ENTER];"
+        read mail
+
+        sed "s/%%PLACEHOLDER%%/${mail}/" ${source_dir}/${file} > ~/${file}
+        continue
+    fi
+
     cp ${source_dir}/${file} ~/
 
 done

@@ -1,6 +1,6 @@
 [user]
     name = Johan Carlquist
-    email = johan@rymdvarel.se
+    email = %%PLACEHOLDER%%
 
 [push]
     default = current
