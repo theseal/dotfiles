@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 tap 'theseal/ssh-askpass'
+brew 'dockutil'
 brew 'mas'
 brew 'mpv'
 brew 'mtr'
