@@ -9,6 +9,7 @@ brew 'svtplay-dl'
 brew 'tmux'
 brew 'youtube-dl'
 cask 'alfred'
+cask 'caffeine'
 cask 'firefox'
 cask 'flux'
 cask 'gpgtools'
@@ -22,7 +23,6 @@ cask 'spotify'
 cask 'xccello'
 mas '1Password', id: 443987910
 mas 'Bear', id: 1091189122
-mas 'Caffeine', id: 411246225
 mas 'EventScripts', id: 525319418
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Pixelmator', id: 407963104
