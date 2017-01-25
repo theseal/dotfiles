@@ -30,3 +30,4 @@ mas 'Pixelmator', id: 407963104
 mas 'SomaFM', id: 449155338
 mas 'Telegram', id: 747648890
 mas 'Tweetbot', id: 557168941
+mas 'Reeder', id: 880001334
