@@ -37,11 +37,21 @@ cdm() {
 
 # View files in an SVN repo without the SVN crap files.
 sfind() {
-    find . -path '*/.svn*' -prune -o -print
+    if [ -z ${1} ]; then
+       path="."
+    else
+        path=$(echo ${1} |sed 's#/$##')
+    fi
+    find ${path} -path '*/.svn*' -prune -o -print
 }
 # View files in an GIT repo without the GIT crap files.
 gfind() {
-    find . -path '*/.git*' -prune -o -print
+    if [ -z ${1} ]; then
+       path="."
+    else
+        path=$(echo ${1} |sed 's#/$##')
+    fi
+    find ${path} -path '*/.git*' -prune -o -print
 }
 
 tunnel() {
