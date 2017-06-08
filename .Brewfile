@@ -19,7 +19,7 @@ cask 'macvim'
 cask 'postman'
 cask 'quitter'
 cask 'rocket'
-cask 'slate'
+cask 'spectacle'
 cask 'spotify'
 cask 'xccello'
 mas '1Password', id: 443987910
