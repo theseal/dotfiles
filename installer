@@ -2,6 +2,7 @@
 
 source_dir=$(dirname $0)
 kernel=$(uname)
+mail=$1
 
 for file in $(ls -a ${source_dir} | egrep '^\.[^.]+' | egrep -v '^\.git$'); do
     if [ "${file}" == ".slate" ] || [ "${file}" == ".Brewfile" ]; then
@@ -11,8 +12,11 @@ for file in $(ls -a ${source_dir} | egrep '^\.[^.]+' | egrep -v '^\.git$'); do
     fi
 
     if [ "${file}" == ".gitconfig" ]; then
-        echo "Enter git commit mail, followed by [ENTER];"
-        read mail
+
+        if [ ! ${mail} ]; then
+            echo "Enter git commit mail, followed by [ENTER];"
+            read mail
+        fi
 
         sed "s/%%PLACEHOLDER%%/${mail}/" ${source_dir}/${file} > ~/${file}
         continue
