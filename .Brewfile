@@ -22,6 +22,7 @@ cask 'paw'
 cask 'quitter'
 cask 'spectacle'
 cask 'spotify'
+cask 'vanilla'
 cask 'xccello'
 mas '1Password', id: 443987910
 mas 'Quiver', id: 866773894
