@@ -11,6 +11,8 @@ export VISUAL=vim
 export HISTSIZE=
 export HISTFILESIZE=
 export HISTCONTROL=ignoredups
+export HISTTIMEFORMAT="%s "
+
 
 # UTF8 is nice to have.
 export LC_ALL=en_US.UTF-8
