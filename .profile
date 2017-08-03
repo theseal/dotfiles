@@ -13,6 +13,10 @@ export HISTFILESIZE=
 export HISTCONTROL=ignoredups
 export HISTTIMEFORMAT="%s "
 
+dbhist_file=/usr/local/lib/dbhist.sh
+if [ -f ${dbhist_file} ]; then
+    source /usr/local/lib/dbhist.sh
+fi
 
 # UTF8 is nice to have.
 export LC_ALL=en_US.UTF-8
