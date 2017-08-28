@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+
+# Load Debian default stuff. Makes terminal colorful.
+if [ -f "/etc/skel/.profile" ]; then
+    . /etc/skel/.profile
+fi
+
 # A long path is a good path.
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/lib/rancid/bin:$PATH
 
