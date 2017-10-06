@@ -6,6 +6,11 @@ if [ -f "/etc/skel/.profile" ]; then
     . /etc/skel/.profile
 fi
 
+if [ "$(uname)" == "Darwin" ];then
+    bind '"\e\e[D": backward-word'
+    bind '"\e\e[C": forward-word'
+fi
+
 # A long path is a good path.
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/lib/rancid/bin:$PATH
 
