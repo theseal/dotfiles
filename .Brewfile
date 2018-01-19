@@ -24,9 +24,9 @@ cask 'quitter'
 cask 'spectacle'
 cask 'spotify'
 cask 'vanilla'
+cask 'royal-tsx'
 mas '1Password', id: 443987910
 mas 'EventScripts', id: 525319418
-mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Pixelmator', id: 407963104
 mas 'Quiver', id: 866773894
 mas 'Reeder 3', id: 880001334
