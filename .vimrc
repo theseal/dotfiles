@@ -17,7 +17,6 @@ set hlsearch
 " Show more then default "eol:$" in the list view.
 set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$
 
-set novisualbell
 set noerrorbells
 set laststatus=2
 
