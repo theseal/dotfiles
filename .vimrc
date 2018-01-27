@@ -47,7 +47,6 @@ set expandtab
 
 " SVN commit diff
 autocmd BufReadPost svn-commit*.tmp :call Svn_diff()
-
 function Svn_diff()
     silent exe "normal G"
     silent r!svn diff
