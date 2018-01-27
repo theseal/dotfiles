@@ -7,6 +7,8 @@ set background=dark
 " It's easier to work with code and config if syntax is highlighted.
 syntax on
 
+" Make it easier to follow brackets when coding. Will quickly show the starting
+" bracket when closing a section set showmatch
 set showmatch
 set mat=5
 set hlsearch
