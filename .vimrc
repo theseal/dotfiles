@@ -31,7 +31,9 @@ set formatoptions=tcrqn
 
 " Copy indent from current line when starting a new line.
 set autoindent
-set si
+
+" Do smart autoindenting when starting a new line.
+set smartindent
 set cindent
 set cinkeys=0{,0},0),:,!^F,o,O,e
 set tabstop=8
