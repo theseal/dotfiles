@@ -53,6 +53,7 @@ function Svn_diff()
     silent exe "1"
 endfunction
 
+" Don't indent when writing mail and keep them at maximum 72 char width.
 autocmd FileType mail set nocindent
 autocmd FileType mail set textwidth=72
 
