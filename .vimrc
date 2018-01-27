@@ -28,7 +28,9 @@ set laststatus=2
 "      <Enter> in Insert mode.
 " n    When formatting text, recognize numbered lists.
 set formatoptions=tcrqn
-set ai
+
+" Copy indent from current line when starting a new line.
+set autoindent
 set si
 set cindent
 set cinkeys=0{,0},0),:,!^F,o,O,e
