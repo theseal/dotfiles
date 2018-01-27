@@ -53,8 +53,8 @@ function Svn_diff()
     silent exe "1"
 endfunction
 
-au FileType mail set nocindent
-au FileType mail set textwidth=72
+autocmd FileType mail set nocindent
+autocmd FileType mail set textwidth=72
 
 " Highlight whitespace(s) at the end of line.
 autocmd VimEnter * :call matchadd('Error', '\s\+$', -1) | call matchadd('Error', '\%u00A0')
