@@ -34,8 +34,6 @@ set autoindent
 
 " Do smart autoindenting when starting a new line.
 set smartindent
-set cindent
-set cinkeys=0{,0},0),:,!^F,o,O,e
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
