@@ -1,6 +1,7 @@
 " I like a bit longer command history then the default 20.
 set history=1000
 
+" I work most often with terminals using dark backgrounds.
 set background=dark
 syntax on
 
