@@ -45,8 +45,6 @@ set shiftwidth=4
 " Use the appropriate number of spaces to insert a <Tab>
 set expandtab
 
-let perl_extended_vars=1 " highlight advanced perl vars inside strings
-
 " SVN commit diff
 autocmd BufReadPost svn-commit*.tmp :call Svn_diff()
 
