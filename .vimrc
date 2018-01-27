@@ -37,6 +37,9 @@ set smartindent
 
 " Four spaces looks nice when coding.
 set softtabstop=4
+
+" Number of spaces to use for each step of (auto)indent
+" Looks best to match softtabstop.
 set shiftwidth=4
 set expandtab
 
