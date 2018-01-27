@@ -1,3 +1,4 @@
+" I like a bit longer command history then the default 20.
 set history=1000
 
 set background=dark
