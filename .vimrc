@@ -17,6 +17,7 @@ set hlsearch
 " Show more then default "eol:$" in the list view.
 set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$
 
+" Always show the status-line
 set laststatus=2
 
 set fo=tcrqn
