@@ -7,7 +7,6 @@ set background=dark
 " It's easier to work with code and config if syntax is highlighted.
 syntax on
 
-set ruler
 set number
 
 set showmatch
