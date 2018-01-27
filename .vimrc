@@ -34,7 +34,7 @@ set autoindent
 
 " Do smart autoindenting when starting a new line.
 set smartindent
-set tabstop=8
+
 set softtabstop=4
 set shiftwidth=4
 set expandtab
