@@ -13,6 +13,8 @@ set showmatch
 
 " When there is a previous search pattern, highlight all its matches.
 set hlsearch
+
+" Show more then default "eol:$" in the list view.
 set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$
 
 set novisualbell
