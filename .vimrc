@@ -20,7 +20,7 @@ set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$
 " Always show the status-line
 set laststatus=2
 
-set fo=tcrqn
+set formatoptions=tcrqn
 set ai
 set si
 set cindent
