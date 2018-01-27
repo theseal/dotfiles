@@ -1,4 +1,3 @@
-set nocompatible
 set history=1000
 
 set background=dark
