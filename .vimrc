@@ -3,6 +3,8 @@ set history=1000
 
 " I work most often with terminals using dark backgrounds.
 set background=dark
+
+" It's easier to work with code and config if syntax is highlighted.
 syntax on
 
 set ruler
