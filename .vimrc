@@ -20,6 +20,13 @@ set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$
 " Always show the status-line
 set laststatus=2
 
+" Influence how Vim formats text, extend the default "tcq".
+" t    Auto-wrap text using textwidth
+" c    Auto-wrap comments using textwidth, inserting the current comment
+" q    Allow formatting of comments with "gq".
+" r    Automatically insert the current comment leader after hitting
+"      <Enter> in Insert mode.
+" n    When formatting text, recognize numbered lists.
 set formatoptions=tcrqn
 set ai
 set si
