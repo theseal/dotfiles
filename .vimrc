@@ -41,6 +41,8 @@ set softtabstop=4
 " Number of spaces to use for each step of (auto)indent
 " Looks best to match softtabstop.
 set shiftwidth=4
+
+" Use the appropriate number of spaces to insert a <Tab>
 set expandtab
 
 let perl_extended_vars=1 " highlight advanced perl vars inside strings
