@@ -35,6 +35,7 @@ set autoindent
 " Do smart autoindenting when starting a new line.
 set smartindent
 
+" Four spaces looks nice when coding.
 set softtabstop=4
 set shiftwidth=4
 set expandtab
