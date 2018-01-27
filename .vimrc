@@ -10,6 +10,8 @@ syntax on
 " Make it easier to follow brackets when coding. Will quickly show the starting
 " bracket when closing a section set showmatch
 set showmatch
+
+" When there is a previous search pattern, highlight all its matches.
 set hlsearch
 set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$
 
