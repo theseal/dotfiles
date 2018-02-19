@@ -31,6 +31,7 @@ mas 'Pixelmator', id: 407963104
 mas 'Quiver', id: 866773894
 mas 'Reeder 3', id: 880001334
 mas 'SomaFM', id: 449155338
+mas 'Soulver', id: 413965349
 mas 'Telegram', id: 747648890
 mas 'TogglDesktop', id: 957734279
 mas 'Trello', id: 1278508951
