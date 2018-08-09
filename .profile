@@ -9,6 +9,7 @@ fi
 if [ "$(uname)" == "Darwin" ];then
     bind '"\e\e[D": backward-word'
     bind '"\e\e[C": forward-word'
+    [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 fi
 
 # A long path is a good path.
