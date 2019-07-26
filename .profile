@@ -73,6 +73,6 @@ gfind() {
 }
 
 login() {
-    kinit
+    kinit $(whoami)
     kinit "$(whoami)/root"
 }
