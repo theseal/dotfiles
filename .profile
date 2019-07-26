@@ -31,7 +31,7 @@ if [ -f ${dbhist_file} ]; then
 fi
 
 # UTF8 is nice to have.
-export LC_ALL=en_US.UTF-8
+export LC_ALL=en_GB.UTF-8
 
 # If @Work, source some secret work related stuff
 WORK="${HOME}/.work"
