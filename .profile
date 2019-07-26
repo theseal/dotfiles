@@ -72,11 +72,6 @@ gfind() {
     find ${path} -path '*/.git*' -prune -o -print
 }
 
-tunnel() {
-    sudo networksetup -setsocksfirewallproxy "Wi-Fi" localhost 7777
-    ssh -D 7777 ${1}
-    sudo networksetup -setsocksfirewallproxystate "Wi-Fi" off
-}
 login() {
     kinit
     kinit "$(whoami)/root"
