@@ -12,6 +12,10 @@ if [ "$(uname)" == "Darwin" ];then
     [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 fi
 
+if [ -f /etc/bash_completion ]; then
+ . /etc/bash_completion
+fi
+
 # A long path is a good path.
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/lib/rancid/bin:$PATH
 
