@@ -17,6 +17,6 @@ gfind() {
     find ${dir} -path '*/.git*' -prune -o -print
 }
 
-if [ -f ~/.workz ]; then
-    source ~/.workz
+if [ -f ~/.work ]; then
+    source ~/.work
 fi
