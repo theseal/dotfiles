@@ -20,3 +20,7 @@ gfind() {
 if [ -f ~/.work ]; then
     source ~/.work
 fi
+
+if [ -f "~/.localz" ]; then
+    source "~/.localz"
+fi

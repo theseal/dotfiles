@@ -37,13 +37,6 @@ fi
 # UTF8 is nice to have.
 export LC_ALL=en_GB.UTF-8
 
-# Source "local" secrets or stuff thats not generic
-LOCAL="${HOME}/.localz"
-if [ -f "${LOCAL}" ]; then
-    source "${LOCAL}"
-fi
-unset LOCAL
-
 if [ -f ~/.aliases ]; then
     source ~/.aliases
 fi
