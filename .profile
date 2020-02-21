@@ -56,3 +56,7 @@ cdm() {
     mkdir -p ${1}
     cd ${1}
 }
+
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
+fi
