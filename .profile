@@ -44,12 +44,6 @@ if [ -f "${LOCAL}" ]; then
 fi
 unset LOCAL
 
-# Create dir and cd in to it
-cdm() {
-    mkdir -p ${1}
-    cd ${1}
-}
-
 if [ -f ~/.aliases ]; then
     source ~/.aliases
 fi
