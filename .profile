@@ -37,13 +37,6 @@ fi
 # UTF8 is nice to have.
 export LC_ALL=en_GB.UTF-8
 
-# If @Work, source some secret work related stuff
-WORK="${HOME}/.work"
-if [ -f "${WORK}" ]; then
-    source "${WORK}"
-fi
-unset WORK
-
 # Source "local" secrets or stuff thats not generic
 LOCAL="${HOME}/.localz"
 if [ -f "${LOCAL}" ]; then
