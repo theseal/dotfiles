@@ -75,8 +75,3 @@ gfind() {
     fi
     find ${path} -path '*/.git*' -prune -o -print
 }
-
-login() {
-    kinit $(whoami)
-    kinit "$(whoami)/root"
-}
