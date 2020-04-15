@@ -14,7 +14,6 @@ brew 'tmux'
 brew 'youtube-dl'
 cask 'alfred'
 cask 'blank-screensaver'
-cask 'caffeine'
 cask 'firefox'
 cask 'gpgtools'
 cask 'iterm2'
@@ -28,6 +27,7 @@ cask 'spotify'
 cask 'vanilla'
 mas '1Password', id: 443987910
 mas 'EventScripts', id: 525319418
+mas 'Lungo', id: 1263070803
 mas 'Pixelmator', id: 407963104
 mas 'Quiver', id: 866773894
 mas 'Reeder 3', id: 880001334
