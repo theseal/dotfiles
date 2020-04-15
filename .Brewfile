@@ -27,7 +27,7 @@ mas 'EventScripts', id: 525319418
 mas 'Lungo', id: 1263070803
 mas 'Pixelmator', id: 407963104
 mas 'Quiver', id: 866773894
-mas 'Reeder 3', id: 880001334
+mas 'Reeder', id: 1449412482
 mas 'SomaFM', id: 449155338
 mas 'Soulver', id: 413965349
 mas 'Telegram', id: 747648890
