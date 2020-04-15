@@ -23,7 +23,9 @@ cask 'spectacle'
 cask 'spotify'
 cask 'vanilla'
 mas '1Password 7', id: 1333542190
+mas 'DaisyDisk', id: 411643860
 mas 'EventScripts', id: 525319418
+mas 'JSONPeep', id: 1458969831
 mas 'Lungo', id: 1263070803
 mas 'Pixelmator', id: 407963104
 mas 'Reeder', id: 1449412482
@@ -31,3 +33,6 @@ mas 'SomaFM', id: 449155338
 mas 'Soulver', id: 413965349
 mas 'Telegram', id: 747648890
 mas 'Tweetbot', id: 557168941
+mas 'WireGuard', id: 1451685025
+mas 'Yoink', id: 457622435
+mas 'uBlock', id: 1385985095
