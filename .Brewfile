@@ -35,5 +35,4 @@ mas 'SomaFM', id: 449155338
 mas 'Soulver', id: 413965349
 mas 'Telegram', id: 747648890
 mas 'TogglDesktop', id: 957734279
-mas 'Trello', id: 1278508951
 mas 'Tweetbot', id: 557168941
