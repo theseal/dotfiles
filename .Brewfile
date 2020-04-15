@@ -18,13 +18,11 @@ cask 'firefox'
 cask 'iterm2'
 cask 'macvim'
 cask 'paw'
-cask 'royal-tsx'
 cask 'spectacle'
 cask 'spotify'
 cask 'vanilla'
 mas '1Password 7', id: 1333542190
 mas 'DaisyDisk', id: 411643860
-mas 'EventScripts', id: 525319418
 mas 'JSONPeep', id: 1458969831
 mas 'Lungo', id: 1263070803
 mas 'Pixelmator', id: 407963104
