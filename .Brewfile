@@ -15,12 +15,9 @@ brew 'youtube-dl'
 cask 'alfred'
 cask 'blank-screensaver'
 cask 'firefox'
-cask 'gpgtools'
 cask 'iterm2'
-cask 'luxafor'
 cask 'macvim'
 cask 'paw'
-cask 'quitter'
 cask 'royal-tsx'
 cask 'spectacle'
 cask 'spotify'
@@ -34,5 +31,4 @@ mas 'Reeder 3', id: 880001334
 mas 'SomaFM', id: 449155338
 mas 'Soulver', id: 413965349
 mas 'Telegram', id: 747648890
-mas 'TogglDesktop', id: 957734279
 mas 'Tweetbot', id: 557168941
