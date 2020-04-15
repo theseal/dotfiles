@@ -1,4 +1,4 @@
-tap 'caskroom/cask'
+tap 'homebrew/cask-cask'
 tap 'theseal/blank-screensaver'
 tap 'theseal/ssh-askpass'
 brew 'zsh-completion'
