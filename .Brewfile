@@ -1,7 +1,7 @@
 tap 'caskroom/cask'
 tap 'theseal/blank-screensaver'
 tap 'theseal/ssh-askpass'
-brew 'bash-completion'
+brew 'zsh-completion'
 brew 'brightness'
 brew 'dockutil'
 brew 'mas'
