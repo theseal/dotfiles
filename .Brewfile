@@ -25,7 +25,7 @@ cask 'royal-tsx'
 cask 'spectacle'
 cask 'spotify'
 cask 'vanilla'
-mas '1Password', id: 443987910
+mas '1Password 7', id: 1333542190
 mas 'EventScripts', id: 525319418
 mas 'Lungo', id: 1263070803
 mas 'Pixelmator', id: 407963104
