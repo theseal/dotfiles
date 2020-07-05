@@ -19,6 +19,7 @@ cask 'macvim'
 cask 'paw'
 cask 'rectangle'
 cask 'riot'
+cask 'soulver'
 cask 'spotify'
 cask 'vanilla'
 mas '1Password 7', id: 1333542190
@@ -30,7 +31,7 @@ mas 'Mactracker' id: 430255202
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Reeder', id: 1449412482
 mas 'SomaFM', id: 449155338
-mas 'Soulver', id: 413965349
+mas 'Soulver 2', id: 413965349
 mas 'Tab Space', id:1473726602
 mas 'Telegram', id: 747648890
 mas 'Tweetbot', id: 1384080005
