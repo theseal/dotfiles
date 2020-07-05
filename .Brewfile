@@ -31,7 +31,7 @@ mas 'Reeder', id: 1449412482
 mas 'SomaFM', id: 449155338
 mas 'Soulver', id: 413965349
 mas 'Telegram', id: 747648890
-mas 'Tweetbot', id: 557168941
+mas 'Tweetbot', id: 1384080005
 mas 'WireGuard', id: 1451685025
 mas 'Yoink', id: 457622435
 mas 'uBlock', id: 1385985095
