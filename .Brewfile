@@ -22,6 +22,7 @@ cask 'paw'
 cask 'rectangle'
 cask 'spotify'
 cask 'vanilla'
+cask 'zoom'
 mas '1Password 7', id: 1333542190
 mas 'Bear', id: 1091189122
 mas 'Better', id: 1121192229
