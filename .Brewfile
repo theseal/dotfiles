@@ -23,7 +23,9 @@ cask 'rectangle'
 cask 'spotify'
 cask 'vanilla'
 mas '1Password 7', id: 1333542190
+mas 'Better', id: 1121192229
 mas 'DaisyDisk', id: 411643860
+mas 'Hush', id: 1544743900
 mas 'JSONPeep', id: 1458969831
 mas 'Lungo', id: 1263070803
 mas 'Mactracker' ,id: 430255202
@@ -35,4 +37,3 @@ mas 'Tab Space', id:1473726602
 mas 'Telegram', id: 747648890
 mas 'WireGuard', id: 1451685025
 mas 'Yoink', id: 457622435
-mas 'uBlock', id: 1385985095
