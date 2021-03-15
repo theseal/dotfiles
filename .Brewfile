@@ -19,7 +19,6 @@ cask 'iterm2'
 cask 'macvim'
 cask 'paw'
 cask 'rectangle'
-cask 'soulver'
 cask 'spotify'
 cask 'vanilla'
 mas '1Password 7', id: 1333542190
