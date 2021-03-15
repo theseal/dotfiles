@@ -24,6 +24,7 @@ cask 'paw'
 cask 'quitter'
 cask 'rectangle'
 cask 'spotify'
+cask 'steermouse'
 cask 'vanilla'
 cask 'zoom'
 mas '1Password 7', id: 1333542190
