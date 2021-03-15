@@ -25,6 +25,7 @@ cask 'vanilla'
 mas '1Password 7', id: 1333542190
 mas 'Better', id: 1121192229
 mas 'DaisyDisk', id: 411643860
+mas 'EventScripts', id: 525319418
 mas 'Hush', id: 1544743900
 mas 'JSONPeep', id: 1458969831
 mas 'Lungo', id: 1263070803
