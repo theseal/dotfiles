@@ -27,7 +27,7 @@ mas 'DaisyDisk', id: 411643860
 mas 'Dato', id: 1470584107
 mas 'JSONPeep', id: 1458969831
 mas 'Lungo', id: 1263070803
-mas 'Mactracker' id: 430255202
+mas 'Mactracker' ,id: 430255202
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Reeder', id: 1449412482
 mas 'SomaFM', id: 449155338
