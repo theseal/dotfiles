@@ -23,7 +23,6 @@ cask 'spotify'
 cask 'vanilla'
 mas '1Password 7', id: 1333542190
 mas 'DaisyDisk', id: 411643860
-mas 'Dato', id: 1470584107
 mas 'JSONPeep', id: 1458969831
 mas 'Lungo', id: 1263070803
 mas 'Mactracker' ,id: 430255202
