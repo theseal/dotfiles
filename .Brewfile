@@ -16,9 +16,12 @@ cask 'blank-screensaver'
 cask 'element'
 cask 'fantastical'
 cask 'firefox'
+cask 'gpgtools'
 cask 'iterm2'
+cask 'luxafor'
 cask 'macvim'
 cask 'paw'
+cask 'quitter'
 cask 'rectangle'
 cask 'spotify'
 cask 'vanilla'
@@ -38,5 +41,6 @@ mas 'SomaFM', id: 449155338
 mas 'Soulver 2', id: 413965349
 mas 'Tab Space', id:1473726602
 mas 'Telegram', id: 747648890
+mas 'TogglDesktop', id: 957734279
 mas 'WireGuard', id: 1451685025
 mas 'Yoink', id: 457622435

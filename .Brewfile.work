@@ -1,4 +1,0 @@
-cask 'gpgtools'
-cask 'luxafor'
-cask 'quitter'
-mas 'TogglDesktop', id: 957734279
