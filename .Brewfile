@@ -39,7 +39,7 @@ mas 'JSONPeep', id: 1458969831
 mas 'Lungo', id: 1263070803
 mas 'Mactracker' ,id: 430255202
 mas 'Pixelmator Pro', id: 1289583905
-mas 'Reeder', id: 1449412482
+mas 'Reeder', id: 1529448980
 mas 'SomaFM', id: 449155338
 mas 'Soulver 2', id: 413965349
 mas 'Tab Space', id:1473726602
