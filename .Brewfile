@@ -46,6 +46,6 @@ mas 'SomaFM', id: 449155338
 mas 'Soulver 2', id: 413965349
 mas 'Tab Space', id:1473726602
 mas 'Telegram', id: 747648890
-mas 'TogglDesktop', id: 957734279
+mas 'Timery', id: 1425368544
 mas 'WireGuard', id: 1451685025
 mas 'Yoink', id: 457622435
