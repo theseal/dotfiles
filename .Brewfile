@@ -35,6 +35,7 @@ cask 'xquartz'
 cask 'zoom'
 mas '1Password 7', id: 1333542190
 mas 'Better', id: 1121192229
+mas 'Baking Soda', id: 1601151613
 mas 'DaisyDisk', id: 411643860
 mas 'EventScripts', id: 525319418
 mas 'Hush', id: 1544743900
