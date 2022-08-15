@@ -45,7 +45,6 @@ mas 'Pixelmator Pro', id: 1289583905
 mas 'Reeder', id: 1529448980
 mas 'SomaFM', id: 449155338
 mas 'Soulver 2', id: 413965349
-mas 'Tab Space', id:1473726602
 mas 'Telegram', id: 747648890
 mas 'Timery', id: 1425368544
 mas 'Vinegar', id: 1591303229
