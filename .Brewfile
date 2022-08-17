@@ -38,6 +38,7 @@ cask 'vanilla'
 cask 'xquartz'
 cask 'zoom'
 mas '1Blocker', id: 1365531024
+mas '1Password for Safari', id: 1569813296
 mas 'Baking Soda', id: 1601151613
 mas 'DaisyDisk', id: 411643860
 mas 'EventScripts', id: 525319418
