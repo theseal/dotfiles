@@ -19,3 +19,6 @@ if [ -f ~/.aliases ]; then
     source ~/.aliases
 fi
 
+# Ensure vim
+export EDITOR=vim
+export VISUAL=vim
