@@ -24,3 +24,5 @@ fi
 if [ -f "~/.localz" ]; then
     source "~/.localz"
 fi
+
+alias gitroot='cd $(git rev-parse --show-toplevel)'
