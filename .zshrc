@@ -28,3 +28,6 @@ if type brew &>/dev/null; then
     autoload -Uz compinit
     compinit
 fi
+
+# Find freshly installed binaries directly
+zstyle ':completion:*' rehash true
