@@ -7,6 +7,7 @@ sfind() {
     fi
     find ${dir} -path '*/.svn*' -prune -o -print
 }
+
 # View files in an GIT repo without the GIT crap files.
 gfind() {
     if [ -z ${1} ]; then
