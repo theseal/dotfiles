@@ -31,3 +31,13 @@ fi
 
 # Find freshly installed binaries directly
 zstyle ':completion:*' rehash true
+
+SSH_CONF=/etc/ssh/ssh_config
+if grep -v "^#" "${SSH_CONF}" | grep -q "SendEnv LANG LC_*"; then
+    echo "WARNING: ${SSH_CONF} needs to be modified to fix SendEnv"
+fi
+
+PAM_CONF=/etc/pam.d/sudo
+if ! grep -q "^auth       sufficient     pam_tid.so$" "${PAM_CONF}"; then
+    echo "WARNING: ${PAM_CONF} needs to be modifed to include pam_tid.so"
+fi
