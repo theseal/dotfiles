@@ -1,6 +1,7 @@
 tap 'theseal/blank-screensaver'
 tap 'theseal/ssh-askpass'
 brew 'asdf'
+brew 'bat'
 brew 'brightness'
 brew 'dockutil'
 brew 'freerdp'
