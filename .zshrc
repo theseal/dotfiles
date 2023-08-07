@@ -42,3 +42,5 @@ SSH_CONF=/etc/ssh/ssh_config
 if grep -v "^#" "${SSH_CONF}" | grep -q "SendEnv LANG LC_*"; then
     echo "WARNING: ${SSH_CONF} needs to be modified to fix SendEnv"
 fi
+
+eval "$(starship init zsh)"
