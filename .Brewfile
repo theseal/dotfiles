@@ -49,7 +49,7 @@ mas '1Blocker', id: 1365531024
 mas '1Password for Safari', id: 1569813296
 mas 'Baking Soda', id: 1601151613
 mas 'DaisyDisk', id: 411643860
-mas 'Endel', id: 1484348796
+mas 'Endel', id: 1346247457
 mas 'EventScripts', id: 525319418
 mas 'Hand Mirror', id: 1502839586
 mas 'JSONPeep', id: 1458969831
